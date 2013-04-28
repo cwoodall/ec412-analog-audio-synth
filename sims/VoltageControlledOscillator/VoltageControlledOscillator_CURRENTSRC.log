@@ -1,0 +1,48 @@
+Questionable use of curly braces in ".measure tran freq1 param {1/(t2-t1)}"
+    Error: undefined symbol in: "1/([t2]-t1)"
+Circuit: * C:\users\cwoodall\My Documents\classes\spring2013\EC412\project\hardware\sims\VoltageControlledOscillator\VoltageControlledOscillator_CURRENTSRC.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 8.61953
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 8.47038
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+t1: v(out)=4.5v AT 0.0206103
+t2: v(out)=4.5v AT 0.0244621
+freq1: (1/(t2-t1))=259.625
+
+
+Date: Tue Mar 12 00:58:05 2013
+Total elapsed time: 1.520 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 28674
+traniter = 27273
+tranpoints = 9320
+accept = 6566
+rejected = 2754
+matrix size = 71
+fillins = 319
+solver = Normal
+Matrix Compiler1: 26.7 KB object code size  8.4/6.1/[2.9]
+Matrix Compiler2: 11.2 KB object code size  3.4/4.2/[1.3]
+
+

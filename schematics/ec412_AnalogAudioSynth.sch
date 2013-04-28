@@ -1,0 +1,235 @@
+EESchema Schematic File Version 2  date Sunday, April 28, 2013 12:56:22 PM
+LIBS:power
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:logo
+LIBS:memory
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip
+LIBS:microchip1
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:msp430
+LIBS:nxp_armmcu
+LIBS:opto
+LIBS:philips
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:sensors
+LIBS:siliconi
+LIBS:special
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:linear
+LIBS:cp
+LIBS:tlc084
+LIBS:ec412_AnalogAudioSynth-cache
+EELAYER 27 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 7
+Title "EC412 Analog Audio Synthesizer "
+Date "28 apr 2013"
+Rev "A"
+Comp "Boston University ECE"
+Comment1 "Christopher Woodall <cwoodall@bu.edu>"
+Comment2 "Benjamin Havey <>"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L POT RV?
+U 1 1 517C2AFE
+P 2250 3350
+F 0 "RV?" H 2250 3250 50  0000 C CNN
+F 1 "Linearly Actuated Potentiometer (100k)" V 1650 3850 50  0000 C CNN
+F 2 "~" H 2250 3350 60  0000 C CNN
+F 3 "~" H 2250 3350 60  0000 C CNN
+	1    2250 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L +9V #PWR?
+U 1 1 517C2B14
+P 2250 2950
+F 0 "#PWR?" H 2250 2920 20  0001 C CNN
+F 1 "+9V" H 2250 3060 30  0000 C CNN
+F 2 "~" H 2250 2950 60  0000 C CNN
+F 3 "~" H 2250 2950 60  0000 C CNN
+	1    2250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 517C2B27
+P 2250 3750
+F 0 "#PWR?" H 2250 3750 30  0001 C CNN
+F 1 "GND" H 2250 3680 30  0001 C CNN
+F 2 "~" H 2250 3750 60  0000 C CNN
+F 3 "~" H 2250 3750 60  0000 C CNN
+	1    2250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 517C43E8
+P 2700 4900
+F 0 "SW?" H 2850 5010 50  0000 C CNN
+F 1 "SW_PUSH" H 2700 4820 50  0000 C CNN
+F 2 "~" H 2700 4900 60  0000 C CNN
+F 3 "~" H 2700 4900 60  0000 C CNN
+	1    2700 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 517C43F7
+P 2250 4550
+F 0 "R?" V 2330 4550 40  0000 C CNN
+F 1 "10k" V 2257 4551 40  0000 C CNN
+F 2 "~" V 2180 4550 30  0000 C CNN
+F 3 "~" H 2250 4550 30  0000 C CNN
+	1    2250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +9V #PWR?
+U 1 1 517C4FCF
+P 2250 4200
+F 0 "#PWR?" H 2250 4170 20  0001 C CNN
+F 1 "+9V" H 2250 4310 30  0000 C CNN
+F 2 "~" H 2250 4200 60  0000 C CNN
+F 3 "~" H 2250 4200 60  0000 C CNN
+	1    2250 4200
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 3050 3200 950  300 
+U 517C53C9
+F0 "LinearToExponential" 50
+F1 "lin_to_exp.sch" 50
+F2 "CV0" I L 3050 3350 60 
+F3 "expCV" O R 4000 3350 60 
+$EndSheet
+$Sheet
+S 4800 4750 1200 300 
+U 517C5ADC
+F0 "AREnvelopeGenerator" 50
+F1 "ar_envelope_generator.sch" 50
+F2 "Gate" I L 4800 4900 60 
+F3 "Envelope" O R 6000 4900 60 
+$EndSheet
+$Sheet
+S 4850 3250 800  200 
+U 517C66E7
+F0 "VoltageControlledOscillator" 50
+F1 "vco.sch" 50
+F2 "CV" I L 4850 3350 60 
+F3 "SigOut" O R 5650 3350 60 
+$EndSheet
+$Sheet
+S 6750 3250 800  400 
+U 517C8987
+F0 "VoltageControlledAmplifier" 50
+F1 "vca.sch" 50
+F2 "Vin" I L 6750 3350 60 
+F3 "CV" I L 6750 3550 60 
+F4 "Vout" O R 7550 3350 60 
+$EndSheet
+$Sheet
+S 8300 3250 750  200 
+U 517C8FAF
+F0 "FilterStage" 50
+F1 "filters.sch" 50
+F2 "Vin" I L 8300 3350 60 
+F3 "Vout" O R 9050 3350 60 
+$EndSheet
+$Comp
+L SPEAKER SP?
+U 1 1 517C8FBB
+P 9750 3450
+F 0 "SP?" H 9650 3700 70  0000 C CNN
+F 1 "SPEAKER" H 9650 3200 70  0000 C CNN
+F 2 "~" H 9750 3450 60  0000 C CNN
+F 3 "~" H 9750 3450 60  0000 C CNN
+	1    9750 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 9350 3800 3    80   Input ~ 0
+VRT_GND_4.5V
+$Sheet
+S 650  3400 950  900 
+U 517D5571
+F0 "Power" 50
+F1 "power.sch" 50
+$EndSheet
+Wire Wire Line
+	2250 2950 2250 3100
+Wire Wire Line
+	2250 3750 2250 3600
+Wire Wire Line
+	2400 3350 3050 3350
+Wire Wire Line
+	2250 4800 2250 4900
+Wire Wire Line
+	2250 4900 2400 4900
+Wire Wire Line
+	2250 4200 2250 4300
+Wire Wire Line
+	3000 4900 4800 4900
+Wire Wire Line
+	4850 3350 4000 3350
+Wire Wire Line
+	6250 4900 6000 4900
+Wire Wire Line
+	7550 3350 8300 3350
+Wire Wire Line
+	9350 3800 9350 3550
+Wire Wire Line
+	9350 3550 9450 3550
+Wire Wire Line
+	9050 3350 9450 3350
+Wire Wire Line
+	5650 3350 6750 3350
+Wire Wire Line
+	6250 4900 6250 3550
+Wire Wire Line
+	6250 3550 6750 3550
+$EndSCHEMATC

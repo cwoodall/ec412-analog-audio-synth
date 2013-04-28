@@ -1,0 +1,26 @@
+* Z:\Users\cwoodall\Wine Files\drive_c\Program Files\LTC\LTspiceIV\VoltageControlledAmplifer_JFETasc.asc
+J1 N001 VCV N003 2N5566
+J2 N002 N003 N003 2N5566
+R1 N002 VIN 10k
+R2 N001 VIN 10k
+R3 N003 N002 30k
+R4 VOUT N001 30k
+V1 VIN 0 SINE(4.5 200mV 1000Hz)
+V2 VCV 0 {VCONTROL}
+V3 VCC 0 9V
+XU1 N002 N001 VCC 0 VOUT LT1630
+C1 VOUT 0 10pF
+R5 VOUT 0 1000k
+R6 0 N003 330
+R7 N003 VCC 330
+.model NJF NJF
+.model PJF PJF
+.lib Z:\Users\cwoodall\Wine Files\drive_c\Program Files\LTC\LTspiceIV\lib\cmp\standard.jft
+.tran 20ms
+.step PARAM VCONTROL 0 9 .25
+.MEAS x pp v(vout)
+.MEAS y pp v(vin)
+.MEAS GAIN PARAM {x/y}
+.lib LTC.lib
+.backanno
+.end

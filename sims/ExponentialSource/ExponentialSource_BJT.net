@@ -1,0 +1,29 @@
+* C:\users\cwoodall\My Documents\classes\spring2013\EC412\project\hardware\sims\ExponentialSource\ExponentialSource_BJT.asc
+Q1 N002 N007 N009 0 2N3904
+Q2 N004 N008 N009 0 2N3904
+V2 N005 0 PWL(0 8 10ms 1)
+R1 VCC N002 1000k
+XU1 N013 N002 VCC 0 N011 LM358
+R6 N009 N011 1k
+V3 VCC 0 9
+R3 N006 N005 100k
+R9 N006 N008 1.5k
+R10 N007 N006 1k
+Q5 Vout N003 N001 0 2N3906
+R18 Vout N010 1k
+R19 VCC N001 10
+R2 N003 N004 1k
+C3 N011 N002 100pF
+V1 N013 0 4.5
+V4 N008 0 4.5
+D1 N010 N012 D
+D2 N012 0 D
+.model D D
+.lib C:\Program Files\LTC\LTspiceIV\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Program Files\LTC\LTspiceIV\lib\cmp\standard.bjt
+.tran 10ms
+.lib LM358.sub
+.backanno
+.end

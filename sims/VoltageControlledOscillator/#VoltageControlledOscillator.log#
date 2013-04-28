@@ -1,0 +1,335 @@
+Questionable use of curly braces in ".measure tran freq1 param {1/(t2-t1)}"
+    Error: undefined symbol in: "1/([t2]-t1)"
+Circuit: * C:\users\cwoodall\My Documents\classes\spring2013\EC412\project\hardware\sims\VoltageControlledOscillator\VoltageControlledOscillator.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5165
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.49501
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 5.50104
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 64.7372%
+Source Step = 64.7727%
+Source Step = 64.8023%
+Source Step = 64.8319%
+Source Step = 64.8615%
+Source Step = 64.8911%
+vernier = 0.00146484
+Source Step = 64.9296%
+Source Step = 64.974%
+Source Step = 65.0183%
+Source Step = 65.0627%
+Source Step = 65.1071%
+vernier = 0.00219727
+Source Step = 65.1626%
+Source Step = 65.2292%
+Source Step = 65.2958%
+Source Step = 65.3624%
+Source Step = 65.4289%
+vernier = 0.0032959
+Source Step = 65.5088%
+Source Step = 65.6087%
+Source Step = 65.7086%
+Source Step = 65.8085%
+Source Step = 65.9084%
+vernier = 0.00494385
+Source Step = 66.0232%
+Source Step = 66.173%
+Source Step = 66.3228%
+Source Step = 66.4726%
+Source Step = 66.6225%
+vernier = 0.00741577
+Source Step = 66.7873%
+Source Step = 67.012%
+Source Step = 67.2367%
+Source Step = 67.4614%
+Source Step = 67.6861%
+vernier = 0.0111237
+Source Step = 67.9221%
+Source Step = 68.2592%
+Source Step = 68.5963%
+Source Step = 68.9333%
+Source Step = 69.2704%
+Source Step = 69.6075%
+vernier = 0.0166855
+Source Step = 70.1131%
+Source Step = 70.6187%
+Source Step = 71.1244%
+Source Step = 71.63%
+Source Step = 72.1356%
+vernier = 0.0250282
+Source Step = 72.8688%
+Source Step = 73.6272%
+Source Step = 74.3856%
+Source Step = 75.144%
+Source Step = 75.9025%
+vernier = 0.0375423
+Source Step = 76.9643%
+Source Step = 78.1019%
+Source Step = 79.2396%
+Source Step = 80.3772%
+Source Step = 81.5149%
+vernier = 0.0563135
+Source Step = 83.0507%
+Source Step = 84.7572%
+Source Step = 86.4636%
+Source Step = 88.1701%
+Source Step = 89.8766%
+vernier = 0.0844703
+Source Step = 91.3431%
+vernier = 0.00131985
+Source Step = 91.3671%
+Source Step = 91.4071%
+Source Step = 91.4471%
+Source Step = 91.4871%
+Source Step = 91.527%
+Source Step = 91.567%
+Source Step = 91.607%
+Source Step = 91.647%
+Source Step = 91.687%
+Source Step = 91.727%
+Source Step = 91.767%
+Source Step = 91.807%
+Source Step = 91.847%
+Source Step = 91.887%
+Source Step = 91.927%
+Source Step = 91.967%
+Source Step = 92.007%
+Source Step = 92.047%
+Source Step = 92.087%
+Source Step = 92.127%
+Source Step = 92.167%
+Source Step = 92.207%
+Source Step = 92.247%
+Source Step = 92.287%
+Source Step = 92.327%
+Source Step = 92.367%
+Source Step = 92.4069%
+Source Step = 92.4469%
+Source Step = 92.4869%
+Source Step = 92.5269%
+Source Step = 92.5669%
+Source Step = 92.6069%
+Source Step = 92.6469%
+Source Step = 92.6869%
+Source Step = 92.7269%
+Source Step = 92.7669%
+Source Step = 92.8069%
+Source Step = 92.8469%
+Source Step = 92.8869%
+Source Step = 92.9269%
+Source Step = 92.9669%
+Source Step = 93.0069%
+Source Step = 93.0469%
+Source Step = 93.0869%
+Source Step = 93.1269%
+Source Step = 93.1669%
+Source Step = 93.2069%
+Source Step = 93.2468%
+Source Step = 93.2868%
+Source Step = 93.3268%
+Source Step = 93.3668%
+Source Step = 93.4068%
+Source Step = 93.4468%
+Source Step = 93.4868%
+Source Step = 93.5268%
+Source Step = 93.5668%
+Source Step = 93.6068%
+Source Step = 93.6468%
+Source Step = 93.6868%
+Source Step = 93.7268%
+Source Step = 93.7668%
+Source Step = 93.8068%
+Source Step = 93.8468%
+Source Step = 93.8868%
+Source Step = 93.9268%
+Source Step = 93.9668%
+Source Step = 94.0068%
+Source Step = 94.0468%
+Source Step = 94.0868%
+Source Step = 94.1267%
+Source Step = 94.1667%
+Source Step = 94.2067%
+Source Step = 94.2467%
+Source Step = 94.2867%
+vernier = 0.00197977
+Source Step = 94.3287%
+Source Step = 94.3887%
+Source Step = 94.4487%
+Source Step = 94.5087%
+Source Step = 94.5687%
+Source Step = 94.6287%
+vernier = 0.00296966
+Source Step = 94.7187%
+Source Step = 94.8087%
+Source Step = 94.8987%
+Source Step = 94.9886%
+Source Step = 95.0786%
+vernier = 0.00445449
+Source Step = 95.2091%
+Source Step = 95.3441%
+Source Step = 95.4791%
+Source Step = 95.6141%
+Source Step = 95.7491%
+vernier = 0.00668173
+Source Step = 95.938%
+Source Step = 96.1405%
+Source Step = 96.343%
+Source Step = 96.5455%
+Source Step = 96.7479%
+vernier = 0.0100226
+Source Step = 97.0213%
+Source Step = 97.325%
+Source Step = 97.6287%
+Source Step = 97.9324%
+Source Step = 98.2361%
+vernier = 0.0150339
+Source Step = 98.631%
+Source Step = 99.0866%
+Source Step = 99.5421%
+Source Step = 99.9977%
+Source stepping succeeded in finding the operating point.
+
+.step v=0
+.step v=0.5
+.step v=1
+.step v=1.5
+.step v=2
+.step v=2.5
+.step v=3
+.step v=3.5
+.step v=4
+.step v=4.5
+.step v=5
+.step v=5.5
+.step v=6
+.step v=6.5
+.step v=7
+.step v=7.5
+.step v=8
+.step v=8.5
+.step v=9
+
+
+Measurement: t1
+  step	v(out)=4.5v
+     1	0
+     2	0.0646797
+     3	0.0333
+     4	0.0227683
+     5	0.0174909
+     6	0.0143212
+     7	0.0121759
+     8	0.0106185
+     9	0.00944871
+    10	0.00853671
+    11	0.0078056
+    12	0.00602271
+    13	0.00562081
+    14	0.00527965
+    15	0.00500866
+    16	0.00477906
+    17	0.00457837
+    18	0.00440095
+    19	0.00424366
+
+Measurement: t2
+  step	v(out)=4.5v
+     1	0
+     2	0.0774692
+     3	0.0397293
+     4	0.027064
+     5	0.0207175
+     6	0.0169058
+     7	0.0143325
+     8	0.0124694
+     9	0.0110704
+    10	0.00997997
+    11	0.00910608
+    12	0.00720639
+    13	0.00670709
+    14	0.00628353
+    15	0.00594186
+    16	0.00565095
+    17	0.00539669
+    18	0.00517177
+    19	0.0049726
+
+Measurement: freq1
+  step	(1/(t2-t1))
+     1	
+     2	
+     3	
+     4	
+     5	
+     6	
+     7	
+     8	
+     9	
+    10	
+    11	
+    12	
+    13	
+    14	
+    15	
+    16	
+    17	
+    18	
+    19	
+0      
+78.1897
+155.537
+232.794
+309.927
+386.915
+463.694
+540.261
+616.66 
+692.877
+768.95 
+844.826
+920.572
+996.144
+1071.58
+1146.93
+1222.01
+1297.32
+1371.84
+
+Date: Mon Mar 11 22:33:09 2013
+Total elapsed time: 248.570 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 199225
+traniter = 144881
+tranpoints = 36442
+accept = 25385
+rejected = 11057
+matrix size = 57
+fillins = 231
+solver = Normal
+Matrix Compiler1: 17.0 KB object code size  5.7/4.0/[1.9]
+Matrix Compiler2: 8.79 KB object code size  2.7/3.4/[1.0]
+
+

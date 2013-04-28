@@ -1,0 +1,55 @@
+Circuit: * C:\users\cwoodall\My Documents\classes\spring2013\EC412\project\hardware\sims\ExponentialSource\ExponentialSource_BJT.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 6.68666
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 6.84217
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 16.6667%
+Source Step = 24.2424%
+Source Step = 31.8182%
+Source Step = 39.3939%
+Source Step = 46.9697%
+vernier = 0.375
+Source Step = 56.4394%
+Source Step = 67.803%
+Source Step = 79.1667%
+Source Step = 90.5303%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Sat Apr 13 12:53:23 2013
+Total elapsed time: 0.432 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4127
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 51
+fillins = 68
+solver = Normal
+Matrix Compiler1: 5.97 KB object code size  3.0/1.8/[0.8]
+Matrix Compiler2: 5.31 KB object code size  1.7/2.3/[0.7]
+
+

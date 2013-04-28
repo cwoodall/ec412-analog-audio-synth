@@ -1,0 +1,24 @@
+Circuit: * C:\users\cwoodall\My Documents\classes\spring2013\EC412\project\hardware\sims\ExponentialSource\Draft1.asc
+
+WARNING: Node X1:W is floating.
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Apr 10 19:45:51 2013
+Total elapsed time: 5.183 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 353116
+traniter = 353113
+tranpoints = 80590
+accept = 60175
+rejected = 20415
+matrix size = 4
+fillins = 0
+solver = Normal
+Matrix Compiler1: 136 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 276 bytes object code size  0.1/0.2/[0.1]
+
+

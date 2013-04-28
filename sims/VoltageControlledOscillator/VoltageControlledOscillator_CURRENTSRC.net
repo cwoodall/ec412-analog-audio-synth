@@ -1,0 +1,29 @@
+* C:\users\cwoodall\My Documents\classes\spring2013\EC412\project\hardware\sims\VoltageControlledOscillator\VoltageControlledOscillator_CURRENTSRC.asc
+V1 N001 0 9V
+R1 N001 N004 100k
+R2 N004 0 100k
+R4 OUT2 N004 50k
+R5 N002 IN 10k
+R6 N003 IN 4.9k
+R7 0 N003 4.9k
+V2 IN 0 PWL(0 0 2ms 2)
+C1 OUT N002 .05µ V=50 Irms=10.158 Rser=1 Lser=0
+XU3 N005 OUT2 N007 2N7000
+XU1 N003 N002 N001 0 OUT lm358
+XU2 N004 OUT N001 0 OUT2 LM358
+Q1 N006 N006 0 0 NPN
+Q2 N007 N006 0 0 NPN
+R3 N006 N001 10k
+R8 N002 N005 5k
+.model NPN NPN
+.model PNP PNP
+.lib C:\Program Files\LTC\LTspiceIV\lib\cmp\standard.bjt
+.tran 100ms
+;step lin param V 0 9 .5
+.measure TRAN t1 when V(out)=4.5V cross 10
+.measure TRAN t2 when V(out)=4.5V cross 12
+.measure TRAN freq1 PARAM { 1/(t2-t1) }
+.lib 2N7000.sub
+.lib LM358.sub
+.backanno
+.end

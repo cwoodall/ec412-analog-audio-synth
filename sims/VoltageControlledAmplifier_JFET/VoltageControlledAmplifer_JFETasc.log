@@ -1,0 +1,202 @@
+Questionable use of curly braces in ".meas gain param {x/y}"
+    Error: undefined symbol in: "[x]/y"
+Circuit: * Z:\Users\cwoodall\Wine Files\drive_c\Program Files\LTC\LTspiceIV\VoltageControlledAmplifer_JFETasc.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step vcontrol=0
+.step vcontrol=0.25
+.step vcontrol=0.5
+.step vcontrol=0.75
+.step vcontrol=1
+.step vcontrol=1.25
+.step vcontrol=1.5
+.step vcontrol=1.75
+.step vcontrol=2
+.step vcontrol=2.25
+.step vcontrol=2.5
+.step vcontrol=2.75
+.step vcontrol=3
+.step vcontrol=3.25
+.step vcontrol=3.5
+.step vcontrol=3.75
+.step vcontrol=4
+.step vcontrol=4.25
+.step vcontrol=4.5
+.step vcontrol=4.75
+.step vcontrol=5
+.step vcontrol=5.25
+.step vcontrol=5.5
+.step vcontrol=5.75
+.step vcontrol=6
+.step vcontrol=6.25
+.step vcontrol=6.5
+.step vcontrol=6.75
+.step vcontrol=7
+.step vcontrol=7.25
+.step vcontrol=7.5
+.step vcontrol=7.75
+.step vcontrol=8
+.step vcontrol=8.25
+.step vcontrol=8.5
+.step vcontrol=8.75
+.step vcontrol=9
+
+
+Measurement: x
+  step	PP(v(vout))	FROM	TO
+     1	1.13768	0	0.02
+     2	1.13771	0	0.02
+     3	1.1332	0	0.02
+     4	0.753338	0	0.02
+     5	0.541833	0	0.02
+     6	0.407868	0	0.02
+     7	0.315432	0	0.02
+     8	0.247792	0	0.02
+     9	0.196154	0	0.02
+    10	0.155442	0	0.02
+    11	0.122519	0	0.02
+    12	0.0953441	0	0.02
+    13	0.0725341	0	0.02
+    14	0.0531158	0	0.02
+    15	0.0363832	0	0.02
+    16	0.0218172	0	0.02
+    17	0.00902176	0	0.02
+    18	0.00230789	0	0.02
+    19	0.0124092	0	0.02
+    20	0.0215502	0	0.02
+    21	0.598594	0	0.02
+    22	8.64826e-006	0	0.02
+    23	7.32951e-006	0	0.02
+    24	6.92904e-006	0	0.02
+    25	6.70925e-006	0	0.02
+    26	6.60121e-006	0	0.02
+    27	6.51367e-006	0	0.02
+    28	6.4522e-006	0	0.02
+    29	6.40005e-006	0	0.02
+    30	6.83218e-006	0	0.02
+    31	7.43009e-006	0	0.02
+    32	7.41333e-006	0	0.02
+    33	7.37794e-006	0	0.02
+    34	7.35e-006	0	0.02
+    35	7.32206e-006	0	0.02
+    36	7.29784e-006	0	0.02
+    37	7.26245e-006	0	0.02
+
+Measurement: y
+  step	PP(v(vin))	FROM	TO
+     1	0.399438	0	0.02
+     2	0.399448	0	0.02
+     3	0.399794	0	0.02
+     4	0.399027	0	0.02
+     5	0.399031	0	0.02
+     6	0.399015	0	0.02
+     7	0.399027	0	0.02
+     8	0.399019	0	0.02
+     9	0.399017	0	0.02
+    10	0.399018	0	0.02
+    11	0.399019	0	0.02
+    12	0.399016	0	0.02
+    13	0.399016	0	0.02
+    14	0.399027	0	0.02
+    15	0.399026	0	0.02
+    16	0.399017	0	0.02
+    17	0.399019	0	0.02
+    18	0.399019	0	0.02
+    19	0.399015	0	0.02
+    20	0.399019	0	0.02
+    21	0.399019	0	0.02
+    22	0.39902	0	0.02
+    23	0.39895	0	0.02
+    24	0.39902	0	0.02
+    25	0.398155	0	0.02
+    26	0.39902	0	0.02
+    27	0.398972	0	0.02
+    28	0.39902	0	0.02
+    29	0.39902	0	0.02
+    30	0.398966	0	0.02
+    31	0.398901	0	0.02
+    32	0.398996	0	0.02
+    33	0.398972	0	0.02
+    34	0.398972	0	0.02
+    35	0.398949	0	0.02
+    36	0.398949	0	0.02
+    37	0.398107	0	0.02
+
+Measurement: gain
+  step	(x/y)
+     1	2.84819
+     2	2.8482
+     3	2.83447
+     4	1.88794
+     5	1.35787
+     6	1.02219
+     7	0.790502
+     8	0.621003
+     9	0.491593
+    10	0.38956
+    11	0.307052
+    12	0.238948
+    13	0.181782
+    14	0.133113
+    15	0.0911798
+    16	0.0546773
+    17	0.0226099
+    18	0.00578391
+    19	0.0310996
+    20	0.0540079
+    21	1.50017
+    22	2.16738e-005
+    23	1.8372e-005
+    24	1.73652e-005
+    25	1.68509e-005
+    26	1.65436e-005
+    27	1.63262e-005
+    28	1.61701e-005
+    29	1.60394e-005
+    30	1.71247e-005
+    31	1.86264e-005
+    32	1.858e-005
+    33	1.84924e-005
+    34	1.84224e-005
+    35	1.83534e-005
+    36	1.82927e-005
+    37	1.82425e-005
+
+
+Date: Fri Mar 01 14:26:36 2013
+Total elapsed time: 9.460 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2607
+traniter = 2158
+tranpoints = 1080
+accept = 1052
+rejected = 28
+matrix size = 21
+fillins = 14
+solver = Normal
+Matrix Compiler1: 1.74 KB object code size  1.0/0.7/[0.2]
+Matrix Compiler2: 2.11 KB object code size  0.8/1.0/[0.3]
+
+
